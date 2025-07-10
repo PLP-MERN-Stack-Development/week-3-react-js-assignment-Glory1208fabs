@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import Button from './Button';
 
@@ -161,8 +162,22 @@ const TaskManager = () => {
           {tasks.filter((task) => !task.completed).length} tasks remaining
         </p>
       </div>
+=======
+// src/components/TaskManager.jsx
+import React from 'react';
+
+const TaskManager = () => {
+  return (
+    <div>
+      <h2>Task Manager Component</h2>
+      {/* Add task-related logic here later */}
+>>>>>>> 79f7dfb (initial commit)
     </div>
   );
 };
 
+<<<<<<< HEAD
 export default TaskManager; 
+=======
+export default TaskManager;
+>>>>>>> 79f7dfb (initial commit)
